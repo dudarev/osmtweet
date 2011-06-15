@@ -1,0 +1,10 @@
+cron:
+- description: load changesets
+  url: /admin/load
+  schedule: every 2 hours
+- description: prepare tweets
+  url: /admin/prepare
+  schedule: every 10 minutes
+- description: tweet changesets
+  url: /admin/tweet
+  schedule: every 15 minutes

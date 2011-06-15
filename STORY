@@ -1,0 +1,52 @@
+Main page
+----------
+
+TODO: List of changesets.
+
+Link to admin.
+
+TODO: Link to Twitter.
+
+TODO: Link to RSS.
+
+
+Admin
+------
+
+Links: 
+
+- Parse
+
+- Prepare to tweet
+
+- Tweet
+
+
+Parsing (admin)
+-----------------
+
+Load changesets.
+
+Select only those that have BBOX at most 3 times larger than in settings.
+
+Read last (newest) saved changeset.
+
+Parse changesets until the latest which is in datastore.
+
+Save them to datastore.
+
+
+Preparing to tweet (admin)
+----------------------------
+
+For oldest not tweeted.
+
+Get link from bit.ly for a changeset.
+
+Create a tweet.
+
+
+Tweet (admin)
+---------------
+
+Update status to tweeted.
