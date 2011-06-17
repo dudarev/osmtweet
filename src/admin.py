@@ -20,7 +20,7 @@ from trim_to_tweet import trim_to_tweet
 import users
 from twitter_oauth_handler import OAuthHandler, OAuthAccessToken
 
-from models import *
+from models import Changeset
 
 from get_config import get_config
 
@@ -90,6 +90,7 @@ class AdminHandler(webapp.RequestHandler):
                 min_lat = float(elem.attrib.get('min_lat',-90))
                 max_lon = float(elem.attrib.get('max_lon',180))
                 max_lat = float(elem.attrib.get('max_lat',90))
+                # TODO: move 3 to a global variable
                 # 3 is an arbitrary number, we just ignore changesets that 3 times larger than bbox in config
                 self.response.out.write("<br/>delta_lon: %f" % (max_lon - min_lon))
                 self.response.out.write("<br/>delta_lat: %f" % (max_lat - min_lat))

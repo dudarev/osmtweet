@@ -6,8 +6,17 @@
 
 <body>
     <h1>{{ title }}</h1>
+    <ul>
     {% for c in changesets%}
+        <li>
+        <a href="http://www.openstreetmap.org/user/{{c.user}}">{{c.user}}</a>:
+        {% if c.comment %}
+        {{c.comment}}
+        {% endif %}
+        <a href="http://www.openstreetmap.org/browse/changeset/{{c.id}}">{{c.created_at|date:"M d"}}</a>
+        </li>
     {% endfor %}
+    </ul>
     <a href="/admin">Admin</a>
 </body>
 </html>

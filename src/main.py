@@ -8,16 +8,18 @@ from google.appengine.ext import webapp
 from google.appengine.ext import db
 from google.appengine.ext.webapp import template
 
-from models import *
+from twitter_oauth_handler import OAuthHandler, OAuthAccessToken
+
+from models import Changeset
 
 from get_config import get_config
 
-from twitter_oauth_handler import OAuthHandler, OAuthAccessToken
 
 class MainHandler(webapp.RequestHandler):
     def get(self):
+        changesets = Changeset.all().order('-created_at').fetch(20)
         config = get_config()
-        options = {'title': config['title']}
+        options = {'title': config['title'], 'changesets': changesets}
         path = os.path.join(os.path.dirname(__file__), 'templates/index.html')
         page = template.render(path,options)
         self.response.out.write(page)
