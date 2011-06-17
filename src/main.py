@@ -25,9 +25,20 @@ class MainHandler(webapp.RequestHandler):
         self.response.out.write(page)
 
 
+class RSSHandler(webapp.RequestHandler):
+    def get(self):
+        changesets = Changeset.all().order('-created_at').fetch(20)
+        config = get_config()
+        options = {'config': config, 'changesets': changesets}
+        path = os.path.join(os.path.dirname(__file__), 'templates/rss.html')
+        page = template.render(path,options)
+        self.response.out.write(page)
+
+
 logging.getLogger().setLevel(logging.DEBUG)
 application = webapp.WSGIApplication([
                                     ('/', MainHandler),
+                                    ('/rss', RSSHandler),
                                     ('/oauth/(.*)/(.*)', OAuthHandler),
                                     ],
                                    debug=True)

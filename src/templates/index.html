@@ -2,10 +2,12 @@
 <html id="home"> 
 <head>
     <title>{{ title }}</title>
+    <link rel="alternate" type="application/rss+xml" href="/rss" title="OSMDonetsk RSS feed">
 </head>
 
 <body>
     <h1>{{ title }}</h1>
+    <a type="application/rss+xml" href="/rss">RSS</a>
     <ul>
     {% for c in changesets%}
         <li>
