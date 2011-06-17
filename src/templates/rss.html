@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{ config.site_name }}</title>
+    <link>http://{{ config.site_domain }}</link>
+    <description>{{ config.site_description}}</description>
+    <language>ru</language>
+    <ttl>240</ttl>
+    {% for c in changesets%}
+    <item>
+    <title>{{c.user}}{% if c.comment %}: {{c.comment}}{% endif %}</title>
+      <description>
+      &lt;a href=&quot;http://www.openstreetmap.org/user/{{c.user}}&quot;&gt;{{c.user}}&lt;/a&gt;:
+      {% if c.comment %}
+      {{c.comment|escape}}
+      {% endif %}
+      &lt;a href=&quot;http://www.openstreetmap.org/browse/changeset/{{c.id}}&quot;&gt;
+      {{c.id}}
+      &lt;/a&gt;
+      </description>
+      <pubDate>{{c.created_at}}</pubDate>
+      <guid>http://www.openstreetmap.org/browse/changeset/{{c.id}}</guid>
+      <link>http://www.openstreetmap.org/browse/changeset/{{c.id}}</link>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
