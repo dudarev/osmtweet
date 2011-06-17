@@ -1,13 +1,13 @@
 Main page
 ----------
 
-TODO: List of changesets.
+List of changesets.
 
 Link to admin.
 
-TODO: Link to Twitter.
+Link to Twitter.
 
-TODO: Link to RSS.
+Link to RSS.
 
 
 Admin
