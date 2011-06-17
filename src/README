@@ -1,0 +1,9 @@
+Google App Engine bot that tweets changesets from OpenStreetMap in a given BBOX. See STORY for some details.
+
+To install:
+
+- Clone the code
+- Change config.sample.yaml to config.yaml
+- Update it with your settings
+- Change application name (first line) in app.yaml
+- Run on Google App Engine
