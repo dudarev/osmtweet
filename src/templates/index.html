@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html id="home"> 
 <head>
-    <title>{{ title }}</title>
+    <title>{{ config.title }}</title>
     <link rel="alternate" type="application/rss+xml" href="/rss" title="OSMDonetsk RSS feed">
 </head>
 
 <body>
-    <h1>{{ title }}</h1>
-    <a href="http://twitter.com/OSMDonetsk">@OSMDonetsk</a> или 
+    <h1>{{ config.title }}</h1>
+    <a href="{{config.twitter_url}}">@{{config.twitter_username}}</a>
     <a type="application/rss+xml" href="/rss">RSS</a>
     <ul>
     {% for c in changesets%}

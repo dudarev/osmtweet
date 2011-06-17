@@ -19,7 +19,7 @@ class MainHandler(webapp.RequestHandler):
     def get(self):
         changesets = Changeset.all().order('-created_at').fetch(20)
         config = get_config()
-        options = {'title': config['title'], 'changesets': changesets}
+        options = {'config': config, 'changesets': changesets}
         path = os.path.join(os.path.dirname(__file__), 'templates/index.html')
         page = template.render(path,options)
         self.response.out.write(page)
