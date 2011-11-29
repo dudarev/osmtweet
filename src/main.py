@@ -24,6 +24,7 @@ class MainHandler(webapp.RequestHandler):
         counts_list_str = ','.join(map(str,counts_list))
         config = get_config()
         options = {
+            'url': self.request.url,
             'config': config, 
             'changesets': changesets, 
             'counts_list': counts_list_str,
