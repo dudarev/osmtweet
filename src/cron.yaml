@@ -1,10 +1,13 @@
 cron:
 - description: load changesets
   url: /admin/load
-  schedule: every 2 hours
+  schedule: every 1 hours
 - description: prepare tweets
   url: /admin/prepare
   schedule: every 10 minutes
 - description: tweet changesets
   url: /admin/tweet
   schedule: every 15 minutes
+- description: update day counts
+  url: /admin/update_counts
+  schedule: every 1 hours

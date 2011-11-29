@@ -13,3 +13,9 @@ class Changeset(db.Model):
 
     is_prepared = db.BooleanProperty(default=False)
     is_tweeted = db.BooleanProperty(default=False)
+
+
+class Count(db.Model):
+
+    date = db.DateProperty()
+    count = db.IntegerProperty()

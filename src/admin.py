@@ -3,6 +3,7 @@
 from django.utils import simplejson as json
 import logging
 import datetime, time
+from datetime import timedelta
 
 import wsgiref.handlers
 
@@ -18,14 +19,29 @@ from bitly import BitLy
 from trim_to_tweet import trim_to_tweet
 
 import users
-from twitter_oauth_handler import OAuthHandler, OAuthAccessToken
+from twitter_oauth_handler import OAuthAccessToken
 
-from models import Changeset
+from models import Changeset, Count
 
 from get_config import get_config
 
 DEBUG_DO_NOT_SAVE_CHANGESETS = False
 DEBUG_LOAD_FROM_FILE = False
+
+def update_count(date, count):
+    """
+    Returns False if already in datastore and has the same count
+    """
+    c = Count.get_by_key_name(str(date))
+    if not c:
+        c = Count(key_name=str(date))
+    else:
+        if c.count == count:
+            return False
+    c.count = count
+    c.date = date
+    c.put()
+    return True
 
 class AdminHandler(webapp.RequestHandler):
     def LoadHandler(self):
@@ -197,11 +213,81 @@ class AdminHandler(webapp.RequestHandler):
         c.is_tweeted = True
         c.put()
 
+    def UpdateCountsHandler(self):
+        """updates day counts
+        count = number of changesets in a day
+        - get MAX_COUNT (200) changesets
+        - get the day of the first changeset
+        - compare dates of first and last changeset
+          if the same write MAX_COUNT, skip next steps
+        - count changeset for first day
+        - if a changeset is from older day and it is the same as for the last
+          stop updating
+          (chansets are probably missing for the same day as the last changeset)
+        - if changeset day is not the same as for the first 
+          and count for this date exists in datastore
+          stop updating
+        - if more than 1 day between changesets insert 0 for counts in between
+        """
+
+        self.response.out.write('<br/><br/>Updating counts<br/>')
+        MAX_COUNT = 200
+        changesets = Changeset.all().order('-created_at').fetch(MAX_COUNT)
+
+        date_of_first_changeset = changesets[0].created_at.date()
+        date_of_last_changeset = changesets[-1].created_at.date()
+
+        # if the same day for first and last write MAX_COUNT, skip next steps
+        if date_of_last_changeset == date_of_first_changeset:
+            update_count(date_of_first_changeset, MAX_COUNT)
+            self.response.out.write('MAX_COUNT (%d) in this date (%s)<br/>' %
+                    (MAX_COUNT, str(date_of_first_changeset)) )
+            return
+
+        date_last = changesets[0].created_at.date()
+        count_last = 0
+
+        one_day = timedelta(days=1)
+
+        for c in changesets:
+            date_current = c.created_at.date()
+            if  date_current == date_last:
+                count_last += 1
+            else:
+                if date_last - date_current > one_day:
+                    self.response.out.write('need to iterate between dates<br/>')
+                    d = date_current + one_day
+                    # iterate between dates, set counts to 0
+                    while d < date_last:
+                        self.response.out.write(str(d) + '<br/>')
+                        update_count(d, 0)
+                        d += one_day
+                self.response.out.write(str(date_last)+': '+str(count_last)+'<br/>')
+                is_new_entry = update_count(date_last, count_last)
+                if not is_new_entry:
+                    self.response.out.write('not new entry<br/>')
+                    if not date_last == date_of_first_changeset:
+                        self.response.out.write(
+                               'count for %s is already in datastore' % 
+                                str(date_last)
+                        )
+                        return
+
+
+                date_last = c.created_at.date()
+                count_last = 1
+            if c.created_at.date() == date_of_last_changeset:
+                break
+        
+        self.response.out.write(str(changesets[0].created_at)+'<br/>')
+        self.response.out.write(str(changesets[-1].created_at)+'<br/>')
+
     def get(self,action=None):
         self.response.out.write('Admin page<br/><br/>')
         self.response.out.write('<a href="/admin/load">Load and parse changesets</a> (takes time)<br/>')
         self.response.out.write('<a href="/admin/prepare">Prepare to tweet</a><br/>')
         self.response.out.write('<a href="/admin/tweet">Tweet</a><br/><br/>')
+        self.response.out.write('<a href="/admin/update_counts">Update counts</a><br/><br/>')
         self.response.out.write('<a href="http://localhost:8080/_ah/admin/datastore">Localhost datastore</a><br/><br/>')
         self.response.out.write('<a href="/">Home</a><br/><br/>')
 
@@ -219,6 +305,8 @@ class AdminHandler(webapp.RequestHandler):
                 self.PrepareHandler()
             if action == 'tweet':
                 self.TweetHandler()
+            if action == 'update_counts':
+                self.UpdateCountsHandler()
 
 
 def main():
