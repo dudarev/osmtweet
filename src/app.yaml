@@ -29,5 +29,8 @@ handlers:
   upload: img/favicon.ico
   mime_type: image/x-icon
 
+- url: /spark.cgi?.*
+  script: spark.py
+
 - url: /.*
   script: main.py
