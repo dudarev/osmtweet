@@ -1,6 +1,5 @@
 # -*- coding: utf8 -*-
 
-from django.utils import simplejson as json
 import logging
 import datetime, time
 from datetime import timedelta
@@ -21,7 +20,7 @@ from trim_to_tweet import trim_to_tweet
 import users
 from twitter_oauth_handler import OAuthAccessToken
 
-from models import Changeset, Count
+from models import Changeset, Count, Description
 
 from get_config import get_config
 
@@ -282,12 +281,31 @@ class AdminHandler(webapp.RequestHandler):
         self.response.out.write(str(changesets[0].created_at)+'<br/>')
         self.response.out.write(str(changesets[-1].created_at)+'<br/>')
 
+    def UpdateDescription(self):
+        """
+        """
+        description = Description.get_or_insert('description')
+        self.response.out.write('<br/><br/><form action="/admin/send_description" method="POST">')
+        self.response.out.write('<textarea rows="5" cols="40" wrap="physical" name="description">'+description.text+'</textarea><br/>')
+        self.response.out.write('<input type="submit" value="Submit" /></form>')
+
+    def post(self,action=None):
+        if action == 'send_description':
+            description = Description.get_or_insert('description')
+            description.text = self.request.get("description")
+            description.put()
+            self.redirect("/admin?message=description%20is%20updated")
+
     def get(self,action=None):
         self.response.out.write('Admin page<br/><br/>')
+        message = self.request.get("message")
+        if message:
+            self.response.out.write('<font color="red">'+message+'</font><br/><br/>')
         self.response.out.write('<a href="/admin/load">Load and parse changesets</a> (takes time)<br/>')
         self.response.out.write('<a href="/admin/prepare">Prepare to tweet</a><br/>')
         self.response.out.write('<a href="/admin/tweet">Tweet</a><br/><br/>')
         self.response.out.write('<a href="/admin/update_counts">Update counts</a><br/><br/>')
+        self.response.out.write('<a href="/admin/update_description">Update description</a><br/><br/>')
         self.response.out.write('<a href="http://localhost:8080/_ah/admin/datastore">Localhost datastore</a><br/><br/>')
         self.response.out.write('<a href="/">Home</a><br/><br/>')
 
@@ -307,6 +325,8 @@ class AdminHandler(webapp.RequestHandler):
                 self.TweetHandler()
             if action == 'update_counts':
                 self.UpdateCountsHandler()
+            if action == 'update_description':
+                self.UpdateDescription()
 
 
 def main():

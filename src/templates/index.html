@@ -9,7 +9,11 @@
     <h1>{{ config.title }}</h1>
     <img src="{{ url }}spark.cgi?type=impulse&d={{ counts_list }}&height={{ max_count }}&limits=-1,{{ max_count }}&upper={{ average }}&above-color=red&below-color=black&width=2"/><br/><br/>
     <a href="{{config.twitter_url}}">@{{config.twitter_username}}</a>
-    <a type="application/rss+xml" href="/rss">RSS</a>
+    <a type="application/rss+xml" href="/rss">RSS</a><br/><br/>
+    {% if description %}
+        {{ description }}
+        <br/>
+    {% endif %}
     <ul>
     {% for c in changesets%}
         <li>

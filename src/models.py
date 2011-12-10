@@ -19,3 +19,8 @@ class Count(db.Model):
 
     date = db.DateProperty()
     count = db.IntegerProperty()
+
+
+class Description(db.Model):
+
+    text = db.TextProperty()
