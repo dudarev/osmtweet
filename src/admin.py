@@ -286,7 +286,11 @@ class AdminHandler(webapp.RequestHandler):
         """
         description = Description.get_or_insert('description')
         self.response.out.write('<br/><br/><form action="/admin/send_description" method="POST">')
-        self.response.out.write('<textarea rows="5" cols="40" wrap="physical" name="description">'+description.text+'</textarea><br/>')
+        if description.text:
+            d = description.text
+        else:
+            d = ''
+        self.response.out.write('<textarea rows="5" cols="40" wrap="physical" name="description">'+d+'</textarea><br/>')
         self.response.out.write('<input type="submit" value="Submit" /></form>')
 
     def post(self,action=None):
