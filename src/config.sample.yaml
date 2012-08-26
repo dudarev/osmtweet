@@ -1,8 +1,7 @@
 title: Правки OpenStreetMap в Донецке
 twitter_username: OSMDonetsk
 twitter_url: twitter.com/OSMDonetsk
-bitly_username: your_bitly_username
-bitly_password: your_bitly_password
+bitly_username: your_bitly_username if login with twitter see http://bitly.com/a/your_api_key
 bitly_key: your_key
 consumer_key: your_app_twitter_consumer_key
 consumer_secret: your_app_twitter_consumer_secret
