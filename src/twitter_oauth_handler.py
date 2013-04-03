@@ -61,7 +61,7 @@ OAUTH_APP_SETTINGS = {
         'access_token_url': 'https://twitter.com/oauth/access_token',
         'user_auth_url': 'http://twitter.com/oauth/authorize',
 
-        'default_api_prefix': 'http://twitter.com',
+        'default_api_prefix': 'https://twitter.com',
         'default_api_suffix': '.json',
 
         },
@@ -106,7 +106,7 @@ def encode(text):
     return urlquote(str(text), '')
 
 def twitter_specifier_handler(client):
-    return client.get('/account/verify_credentials')['screen_name']
+    return client.get('/1/account/verify_credentials')['screen_name']
 
 OAUTH_APP_SETTINGS['twitter']['specifier_handler'] = twitter_specifier_handler
 
