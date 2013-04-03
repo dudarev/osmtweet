@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="OpenStreetMap server">
+  <changeset id="8332045" user="xybot" uid="70696" created_at="2011-06-03T18:13:50Z" open="true" min_lon="-132.7482764" min_lat="-56.4611431" max_lon="180.0" max_lat="64.0418839">
+    <tag k="comment" v="removing multiple consecutive identical nodes in ways/delete one node ways. please help by giving hints, about how this potlatch bug can be reproduced http://trac.openstreetmap.org/ticket/2501"/>
+    <tag k="created_by" v="FixDoubleNodes"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8331940" user="xybot" uid="70696" created_at="2011-06-03T18:00:17Z" closed_at="2011-06-03T18:12:32Z" open="false" min_lon="-128.9869714" min_lat="-33.4322916" max_lon="56.3440083" max_lat="72.450922">
+    <tag k="comment" v="Fixing typo errors in keys of the Karlsruhe Schema http://wiki.openstreetmap.org/wiki/Key:addr"/>
+    <tag k="created_by" v="FixKarlsruheSchema"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8331737" user="xybot" uid="70696" created_at="2011-06-03T17:33:12Z" closed_at="2011-06-03T17:47:54Z" open="false" min_lon="-107.3647218" min_lat="-42.6902774" max_lon="160.1120003" max_lat="69.0894958">
+    <tag k="comment" v="Fixing typo errors in keys and key/value pairs"/>
+    <tag k="created_by" v="FixTypo7"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8329255" user="knockpenny" uid="371711" created_at="2011-06-03T12:41:24Z" closed_at="2011-06-03T13:41:41Z" open="false" min_lon="37.7724289" min_lat="48.0237375" max_lon="37.8659266" max_lat="48.0654192">
+    <tag k="comment" v="Отрисовал дороги в районе червоногвардейки."/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8328250" user="imagic" uid="202392" created_at="2011-06-03T10:48:59Z" closed_at="2011-06-03T10:49:27Z" open="false" min_lon="37.6476451" min_lat="47.1134081" max_lon="38.5299551" max_lat="47.8376298">
+    <tag k="comment" v="Added roads connecting small villages on the countryside of the ukraine."/>
+    <tag k="created_by" v="JOSM/1.5 (4064 de)"/>
+  </changeset>
+  <changeset id="8327900" user="imagic" uid="202392" created_at="2011-06-03T10:04:35Z" closed_at="2011-06-03T10:05:10Z" open="false" min_lon="37.4693697" min_lat="47.3911511" max_lon="38.0580135" max_lat="47.951382">
+    <tag k="comment" v="Added roads connecting small villages on the countryside of the ukraine."/>
+    <tag k="created_by" v="JOSM/1.5 (4064 de)"/>
+  </changeset>
+  <changeset id="8327097" user="knockpenny" uid="371711" created_at="2011-06-03T08:35:13Z" closed_at="2011-06-03T09:43:26Z" open="false" min_lon="37.6961289" min_lat="47.9819607" max_lon="37.7355717" max_lat="48.0324473">
+    <tag k="comment" v="Прописал названия улиц"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8326822" user="chan" uid="18015" created_at="2011-06-03T07:59:51Z" closed_at="2011-06-03T08:03:46Z" open="false" min_lon="11.7929394" min_lat="40.988714" max_lon="48.2808358" max_lat="48.362549">
+    <tag k="comment" v="ausflug"/>
+    <tag k="created_by" v="JOSM/1.5 (4079 de)"/>
+  </changeset>
+  <changeset id="8326443" user="knockpenny" uid="371711" created_at="2011-06-03T07:01:20Z" closed_at="2011-06-03T08:01:31Z" open="false" min_lon="37.6446238" min_lat="47.8289685" max_lon="37.7546439" max_lat="48.0564778">
+    <tag k="comment" v="Прописал названия улиц"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8326372" user="knockpenny" uid="371711" created_at="2011-06-03T06:49:19Z" closed_at="2011-06-03T07:49:21Z" open="false" min_lon="37.7385004" min_lat="48.0104774" max_lon="37.7466716" max_lat="48.016303">
+    <tag k="comment" v="Прописал названия улиц"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8326142" user="astroiLL" uid="17934" created_at="2011-06-03T06:06:06Z" closed_at="2011-06-03T06:06:07Z" open="false" min_lon="37.8344231" min_lat="45.0671885" max_lon="38.9763748" max_lat="55.646214">
+    <tag k="comment" v="BBOX:37.83,45.07,38.98,55.65 ADD:2 UPD:0 DEL:0"/>
+    <tag k="created_by" v="Merkaartor 0.16 (ru)"/>
+  </changeset>
+  <changeset id="8323959" user="slavko" uid="382900" created_at="2011-06-02T20:12:37Z" closed_at="2011-06-02T20:12:57Z" open="false" min_lon="37.7950742" min_lat="48.0009563" max_lon="37.8062466" max_lat="48.0090571">
+    <tag k="comment" v="дома театральный, сквер первомайский"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8322963" user="xybot" uid="70696" created_at="2011-06-02T18:39:47Z" closed_at="2011-06-02T19:27:27Z" open="false" min_lon="-131.2219481" min_lat="-39.6170132" max_lon="180.0" max_lat="62.847271">
+    <tag k="comment" v="removing multiple consecutive identical nodes in ways/delete one node ways. please help by giving hints, about how this potlatch bug can be reproduced http://trac.openstreetmap.org/ticket/2501"/>
+    <tag k="created_by" v="FixDoubleNodes"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8322787" user="xybot" uid="70696" created_at="2011-06-02T18:22:13Z" closed_at="2011-06-02T18:38:49Z" open="false" min_lon="-119.3662645" min_lat="32.9102519" max_lon="41.1794586" max_lat="56.99518">
+    <tag k="comment" v="Fixing typo errors in keys of the Karlsruhe Schema http://wiki.openstreetmap.org/wiki/Key:addr"/>
+    <tag k="created_by" v="FixKarlsruheSchema"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8322349" user="xybot" uid="70696" created_at="2011-06-02T17:33:44Z" closed_at="2011-06-02T17:57:03Z" open="false" min_lon="-129.7882605" min_lat="-49.2699193" max_lon="180.0" max_lat="68.8967527">
+    <tag k="comment" v="Fixing typo errors in keys and key/value pairs"/>
+    <tag k="created_by" v="FixTypo7"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8320904" user="knockpenny" uid="371711" created_at="2011-06-02T15:18:04Z" closed_at="2011-06-02T16:18:19Z" open="false" min_lon="37.6465304" min_lat="47.8321399" max_lon="37.7547627" max_lat="48.0637999">
+    <tag k="comment" v="Отрисовал дороги в октябрьском районе по снимкам Bing"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8319980" user="knockpenny" uid="371711" created_at="2011-06-02T13:42:02Z" closed_at="2011-06-02T14:55:24Z" open="false" min_lon="37.6915335" min_lat="47.9799514" max_lon="37.7324519" max_lat="48.0328008">
+    <tag k="comment" v="Отрисовал дороги по снимкам Bing"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8319824" user="xrondead" uid="463888" created_at="2011-06-02T13:27:46Z" closed_at="2011-06-02T14:27:47Z" open="false" min_lon="37.8065759" min_lat="47.9727836" max_lon="37.8068506" max_lat="47.9731704">
+    <tag k="comment" v="added building flag to a hotel"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8318222" user="texamus" uid="15809" created_at="2011-06-02T10:42:18Z" closed_at="2011-06-02T11:42:18Z" open="false" min_lon="37.8051917" min_lat="48.0167227" max_lon="37.8051917" max_lat="48.0167227">
+    <tag k="comment" v="Бум"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8316950" user="knockpenny" uid="371711" created_at="2011-06-02T07:49:43Z" closed_at="2011-06-02T08:49:46Z" open="false" min_lon="37.7383353" min_lat="48.008505" max_lon="37.7490718" max_lat="48.0278686">
+    <tag k="comment" v="Отрисовал дороги п оснимкам Bing"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8316919" user="knockpenny" uid="371711" created_at="2011-06-02T07:44:46Z" closed_at="2011-06-02T08:44:52Z" open="false" min_lon="37.7156652" min_lat="47.9963066" max_lon="37.7456203" max_lat="48.0276191">
+    <tag k="comment" v="Прописал названия улица"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8316191" user="slavko" uid="382900" created_at="2011-06-02T05:24:03Z" closed_at="2011-06-02T05:24:24Z" open="false" min_lon="37.7909181" min_lat="48.0036427" max_lon="37.8102741" max_lat="48.0330563">
+    <tag k="comment" v="квартал напротив крупской"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8314189" user="slavko" uid="382900" created_at="2011-06-01T20:58:46Z" closed_at="2011-06-01T20:59:29Z" open="false" min_lon="37.793294" min_lat="48.0019068" max_lon="37.8013234" max_lat="48.0062408">
+    <tag k="comment" v="дома между люксембург и пушкина"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8312464" user="xybot" uid="70696" created_at="2011-06-01T18:03:11Z" closed_at="2011-06-01T18:46:25Z" open="false" min_lon="-139.8179164" min_lat="-48.0753312" max_lon="180.0" max_lat="70.5112785">
+    <tag k="comment" v="removing multiple consecutive identical nodes in ways/delete one node ways. please help by giving hints, about how this potlatch bug can be reproduced http://trac.openstreetmap.org/ticket/2501"/>
+    <tag k="created_by" v="FixDoubleNodes"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8312211" user="xybot" uid="70696" created_at="2011-06-01T17:33:05Z" closed_at="2011-06-01T17:43:50Z" open="false" min_lon="-146.5749239" min_lat="-39.1762284" max_lon="179.8360722" max_lat="73.2715">
+    <tag k="comment" v="Fixing typo errors in keys and key/value pairs"/>
+    <tag k="created_by" v="FixTypo7"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8311018" user="knockpenny" uid="371711" created_at="2011-06-01T14:56:38Z" closed_at="2011-06-01T15:56:48Z" open="false" min_lon="37.7278199" min_lat="47.9861366" max_lon="37.7595872" max_lat="48.0104402">
+    <tag k="comment" v="Прописал названия улиц"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8310917" user="imagic" uid="202392" created_at="2011-06-01T14:43:18Z" closed_at="2011-06-01T14:43:31Z" open="false" min_lon="36.8273037" min_lat="47.67989" max_lon="37.6629631" max_lat="47.9822158">
+    <tag k="comment" v="Added mainly streets around Forest Park"/>
+    <tag k="created_by" v="JOSM/1.5 (4064 de)"/>
+  </changeset>
+  <changeset id="8310798" user="imagic" uid="202392" created_at="2011-06-01T14:29:57Z" closed_at="2011-06-01T14:31:28Z" open="false" min_lon="36.7891102" min_lat="47.4466713" max_lon="37.6876892" max_lat="48.0211571">
+    <tag k="comment" v="Added mainly streets around Forest Park"/>
+    <tag k="created_by" v="JOSM/1.5 (4064 de)"/>
+  </changeset>
+  <changeset id="8310791" user="knockpenny" uid="371711" created_at="2011-06-01T14:29:22Z" closed_at="2011-06-01T15:30:59Z" open="false" min_lon="37.6021982" min_lat="47.928789" max_lon="37.6757047" max_lat="47.9721777">
+    <tag k="comment" v="Отрисовал дорога в районе петровки"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8310398" user="imagic" uid="202392" created_at="2011-06-01T13:37:20Z" closed_at="2011-06-01T13:37:40Z" open="false" min_lon="36.7953664" min_lat="47.1576265" max_lon="37.8934188" max_lat="48.0356277">
+    <tag k="comment" v="Added mainly streets around Forest Park"/>
+    <tag k="created_by" v="JOSM/1.5 (4064 de)"/>
+  </changeset>
+  <changeset id="8310201" user="imagic" uid="202392" created_at="2011-06-01T13:14:39Z" closed_at="2011-06-01T13:14:56Z" open="false" min_lon="36.8334409" min_lat="47.688698" max_lon="37.6670564" max_lat="47.9826856">
+    <tag k="comment" v="Added mainly streets around Forest Park"/>
+    <tag k="created_by" v="JOSM/1.5 (4064 de)"/>
+  </changeset>
+  <changeset id="8310124" user="imagic" uid="202392" created_at="2011-06-01T13:01:59Z" closed_at="2011-06-01T13:02:10Z" open="false" min_lon="36.8372425" min_lat="47.689465" max_lon="37.6672848" max_lat="47.9823569">
+    <tag k="comment" v="Added mainly streets around Forest Park"/>
+    <tag k="created_by" v="JOSM/1.5 (4064 de)"/>
+  </changeset>
+  <changeset id="8310095" user="imagic" uid="202392" created_at="2011-06-01T12:57:31Z" closed_at="2011-06-01T12:59:16Z" open="false" min_lon="36.8156419" min_lat="47.1723249" max_lon="37.6121858" max_lat="48.0429413">
+    <tag k="comment" v="Added mainly streets around Forest Park"/>
+    <tag k="created_by" v="JOSM/1.5 (4064 de)"/>
+  </changeset>
+  <changeset id="8310060" user="xrondead" uid="463888" created_at="2011-06-01T12:52:26Z" closed_at="2011-06-01T13:52:26Z" open="false" min_lon="37.8057801" min_lat="47.9764587" max_lon="37.8057801" max_lat="47.9764587">
+    <tag k="comment" v="added petrol station"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8309858" user="xrondead" uid="463888" created_at="2011-06-01T12:25:41Z" closed_at="2011-06-01T13:25:42Z" open="false" min_lon="37.8081937" min_lat="47.9742126" max_lon="37.8081937" max_lat="47.9742126">
+    <tag k="comment" v="added"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8309839" user="xrondead" uid="463888" created_at="2011-06-01T12:22:41Z" closed_at="2011-06-01T13:22:41Z" open="false" min_lon="37.8065759" min_lat="47.9727836" max_lon="37.8068506" max_lat="47.9731704">
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8309568" user="imagic" uid="202392" created_at="2011-06-01T11:38:30Z" closed_at="2011-06-01T11:39:11Z" open="false" min_lon="36.8346541" min_lat="47.5812403" max_lon="37.6520632" max_lat="47.9838359">
+    <tag k="comment" v="Added mainly streets around Forest Park"/>
+    <tag k="created_by" v="JOSM/1.5 (4064 de)"/>
+  </changeset>
+  <changeset id="8309348" user="knockpenny" uid="371711" created_at="2011-06-01T11:07:14Z" closed_at="2011-06-01T12:07:16Z" open="false" min_lon="37.5515412" min_lat="47.9803557" max_lon="37.7113431" max_lat="48.0063007">
+    <tag k="comment" v="Отрисовал улицу Кирова"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8309300" user="knockpenny" uid="371711" created_at="2011-06-01T11:01:33Z" closed_at="2011-06-01T12:01:36Z" open="false" min_lon="37.6952244" min_lat="47.9811423" max_lon="37.7309311" max_lat="48.0306953">
+    <tag k="comment" v="Прописал названия улиц"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8309208" user="Nixon1995" uid="463847" created_at="2011-06-01T10:50:09Z" closed_at="2011-06-01T11:51:35Z" open="false" min_lon="0.0" min_lat="0.0" max_lon="52.1267027" max_lat="52.0492947">
+    <tag k="comment" v="лежачий полицейский"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8309116" user="donagro" uid="463506" created_at="2011-06-01T10:37:26Z" closed_at="2011-06-01T11:48:59Z" open="false" min_lon="37.7303165" min_lat="48.1247313" max_lon="37.7514024" max_lat="48.1426503">
+    <tag k="comment" v="Правка - Авдеевка"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8308831" user="knockpenny" uid="371711" created_at="2011-06-01T09:54:23Z" closed_at="2011-06-01T10:57:17Z" open="false" min_lon="37.7007098" min_lat="47.9858557" max_lon="37.7586189" max_lat="48.0105154">
+    <tag k="comment" v="Отрисовал дороги по снимкам Bing"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8308238" user="knockpenny" uid="371711" created_at="2011-06-01T08:30:10Z" closed_at="2011-06-01T09:30:18Z" open="false" min_lon="37.7458893" min_lat="47.9698211" max_lon="37.8110976" max_lat="48.0400306">
+    <tag k="comment" v="Прописал названия улиц в районе Бакинских комиссаров."/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8307678" user="pashka_r" uid="12872" created_at="2011-06-01T06:56:21Z" closed_at="2011-06-01T07:56:22Z" open="false" min_lon="37.7669041" min_lat="47.9847287" max_lon="37.7736618" max_lat="47.9902254">
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8307377" user="Paspartu" uid="393964" created_at="2011-06-01T05:28:32Z" closed_at="2011-06-01T05:28:34Z" open="false" min_lon="24.6684022" min_lat="44.393065" max_lon="131.1541322" max_lat="48.5735698">
+    <tag k="comment" v="правка по Новомиколаївка"/>
+    <tag k="created_by" v="JOSM/1.5 (4105 ru)"/>
+  </changeset>
+  <changeset id="8307222" user="NuclearFisher" uid="389805" created_at="2011-06-01T04:44:09Z" closed_at="2011-06-01T04:47:19Z" open="false" min_lon="-0.0001447" min_lat="-9.5e-05" max_lon="38.4255324" max_lat="55.7696131">
+    <tag k="comment" v="объединение точек"/>
+    <tag k="created_by" v="JOSM/1.5 (4064 ru)"/>
+  </changeset>
+  <changeset id="8303887" user="donagro" uid="463506" created_at="2011-05-31T18:10:41Z" closed_at="2011-05-31T19:32:35Z" open="false" min_lon="37.7279207" min_lat="48.1246326" max_lon="37.7505633" max_lat="48.1367339">
+    <tag k="comment" v="oo"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8303813" user="xybot" uid="70696" created_at="2011-05-31T18:03:47Z" closed_at="2011-05-31T18:40:07Z" open="false" min_lon="-134.1253655" min_lat="-40.6115458" max_lon="178.9004338" max_lat="71.3088477">
+    <tag k="comment" v="removing multiple consecutive identical nodes in ways/delete one node ways. please help by giving hints, about how this potlatch bug can be reproduced http://trac.openstreetmap.org/ticket/2501"/>
+    <tag k="created_by" v="FixDoubleNodes"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8303522" user="xybot" uid="70696" created_at="2011-05-31T17:33:09Z" closed_at="2011-05-31T17:44:59Z" open="false" min_lon="-132.6164278" min_lat="-55.7799253" max_lon="180.0" max_lat="73.272666">
+    <tag k="comment" v="Fixing typo errors in keys and key/value pairs"/>
+    <tag k="created_by" v="FixTypo7"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8302922" user="knockpenny" uid="371711" created_at="2011-05-31T16:14:23Z" closed_at="2011-05-31T17:14:26Z" open="false" min_lon="37.7568585" min_lat="47.9990397" max_lon="37.7828974" max_lat="48.0186718">
+    <tag k="comment" v="Прописал названия улиц"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8302506" user="knockpenny" uid="371711" created_at="2011-05-31T15:18:57Z" closed_at="2011-05-31T16:19:03Z" open="false" min_lon="37.757237" min_lat="48.0047881" max_lon="37.7819091" max_lat="48.025086">
+    <tag k="comment" v="Прописал названия улиц в районе бакинских комиссаров"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8301507" user="texamus" uid="15809" created_at="2011-05-31T13:18:42Z" closed_at="2011-05-31T14:18:44Z" open="false" min_lon="37.8017674" min_lat="48.0071249" max_lon="37.8027469" max_lat="48.0087499">
+    <tag k="comment" v="здания на бульваре"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8300357" user="knockpenny" uid="371711" created_at="2011-05-31T11:00:13Z" closed_at="2011-05-31T12:04:29Z" open="false" min_lon="37.7579894" min_lat="47.9979837" max_lon="37.7882834" max_lat="48.0160224">
+    <tag k="comment" v="Прописал названия улиц"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8299531" user="knockpenny" uid="371711" created_at="2011-05-31T09:12:31Z" closed_at="2011-05-31T10:12:39Z" open="false" min_lon="37.7460836" min_lat="47.9706292" max_lon="37.8109498" max_lat="48.0393824">
+    <tag k="comment" v="Прописал названия улиц в районе Бакинских Коммисаров"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8298135" user="slavko" uid="382900" created_at="2011-05-31T03:59:01Z" closed_at="2011-05-31T03:59:25Z" open="false" min_lon="37.7837947" min_lat="47.998627" max_lon="37.8103297" max_lat="48.0328911">
+    <tag k="comment" v="дома центр"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8295631" user="knockpenny" uid="371711" created_at="2011-05-30T19:43:41Z" closed_at="2011-05-30T20:43:49Z" open="false" min_lon="37.597331" min_lat="47.9437664" max_lon="37.6304042" max_lat="47.9668297">
+    <tag k="comment" v="Отрисовал и поправил дороги в петровском районе"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8295066" user="wheelmap_visitor" uid="290680" created_at="2011-05-30T18:56:47Z" closed_at="2011-05-30T21:31:17Z" open="false" min_lon="6.6025199" min_lat="-37.4214015" max_lon="175.2480138" max_lat="51.683977">
+    <tag k="comment" v="Modified wheelchair tag on wheelmap.org"/>
+    <tag k="created_by" v="wheelmap.org"/>
+  </changeset>
+  <changeset id="8294589" user="slavko" uid="382900" created_at="2011-05-30T18:13:42Z" closed_at="2011-05-30T18:14:28Z" open="false" min_lon="37.7670728" min_lat="47.9984479" max_lon="37.8084156" max_lat="48.0320749">
+    <tag k="comment" v="дома центр"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8294583" user="xybot" uid="70696" created_at="2011-05-30T18:13:10Z" closed_at="2011-05-30T18:48:25Z" open="false" min_lon="-126.3868891" min_lat="-42.1615333" max_lon="170.9868032" max_lat="69.6671496">
+    <tag k="comment" v="removing multiple consecutive identical nodes in ways/delete one node ways. please help by giving hints, about how this potlatch bug can be reproduced http://trac.openstreetmap.org/ticket/2501"/>
+    <tag k="created_by" v="FixDoubleNodes"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8294472" user="xybot" uid="70696" created_at="2011-05-30T18:02:13Z" closed_at="2011-05-30T18:11:53Z" open="false" min_lon="-80.19746" min_lat="26.5912041" max_lon="126.3706518" max_lat="59.9947363">
+    <tag k="comment" v="Fixing typo errors in keys of the Karlsruhe Schema http://wiki.openstreetmap.org/wiki/Key:addr"/>
+    <tag k="created_by" v="FixKarlsruheSchema"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8294204" user="xybot" uid="70696" created_at="2011-05-30T17:33:06Z" closed_at="2011-05-30T17:52:09Z" open="false" min_lon="-128.3844136" min_lat="-50.9048382" max_lon="180.0" max_lat="62.7628882">
+    <tag k="comment" v="Fixing typo errors in keys and key/value pairs"/>
+    <tag k="created_by" v="FixTypo7"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8293248" user="knockpenny" uid="371711" created_at="2011-05-30T15:40:07Z" closed_at="2011-05-30T16:40:18Z" open="false" min_lon="37.6146122" min_lat="47.9345031" max_lon="37.6802482" max_lat="47.960948">
+    <tag k="comment" v="отрисовал дороги в петровской районе"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8292614" user="knockpenny" uid="371711" created_at="2011-05-30T14:23:07Z" closed_at="2011-05-30T15:38:46Z" open="false" min_lon="37.5456558" min_lat="47.9350422" max_lon="37.6792079" max_lat="47.978552">
+    <tag k="comment" v="Отрисовал дороги на Петровке"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8292549" user="ZeiN" uid="462766" created_at="2011-05-30T14:15:21Z" closed_at="2011-05-30T15:15:21Z" open="false" min_lon="37.7972611" min_lat="48.0201893" max_lon="37.7972611" max_lat="48.0201893">
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8292535" user="knockpenny" uid="371711" created_at="2011-05-30T14:14:26Z" closed_at="2011-05-30T15:14:31Z" open="false" min_lon="37.7853905" min_lat="48.0631328" max_lon="37.8031967" max_lat="48.0762184">
+    <tag k="comment" v="Отрисовал дороги в Киевском районе по снимкам Bing"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8292462" user="ZeiN" uid="462766" created_at="2011-05-30T14:03:57Z" closed_at="2011-05-30T15:10:49Z" open="false" min_lon="37.7943728" min_lat="48.0117242" max_lon="37.8114757" max_lat="48.0239921">
+    <tag k="comment" v="добавлена остановка"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8292400" user="ZeiN" uid="462766" created_at="2011-05-30T13:55:49Z" closed_at="2011-05-30T14:55:50Z" open="false" min_lon="37.7948308" min_lat="48.0217211" max_lon="37.795579" max_lat="48.0224961">
+    <tag k="comment" v="дом"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8292374" user="ZeiN" uid="462766" created_at="2011-05-30T13:53:01Z" closed_at="2011-05-30T14:53:01Z" open="false" min_lon="37.7942133" min_lat="48.0222269" max_lon="37.795262" max_lat="48.0231633">
+    <tag k="comment" v="остановка была установлена неправильно"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8291963" user="knockpenny" uid="371711" created_at="2011-05-30T13:04:48Z" closed_at="2011-05-30T14:07:57Z" open="false" min_lon="37.7704247" min_lat="48.0614688" max_lon="37.8027025" max_lat="48.0799768">
+    <tag k="comment" v="Отрисовал дороги в Киевском районе по снимкам Bing"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8291722" user="knockpenny" uid="371711" created_at="2011-05-30T12:40:16Z" closed_at="2011-05-30T13:40:25Z" open="false" min_lon="37.7659061" min_lat="48.0367985" max_lon="37.8382642" max_lat="48.0660527">
+    <tag k="comment" v="Отрисовал район Засядько по снимкам Bing"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8291328" user="wheelmap_visitor" uid="290680" created_at="2011-05-30T11:53:11Z" closed_at="2011-05-30T14:43:35Z" open="false" min_lon="-5.0244523" min_lat="31.3240057" max_lon="131.0244761" max_lat="52.7544733">
+    <tag k="comment" v="Modified wheelchair tag on wheelmap.org"/>
+    <tag k="created_by" v="wheelmap.org"/>
+  </changeset>
+  <changeset id="8290747" user="knockpenny" uid="371711" created_at="2011-05-30T10:44:23Z" closed_at="2011-05-30T11:44:32Z" open="false" min_lon="37.7658593" min_lat="48.0366629" max_lon="37.7817677" max_lat="48.0648699">
+    <tag k="comment" v="Отрисовал дороги в районе улицы Жмуры"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8290420" user="knockpenny" uid="371711" created_at="2011-05-30T09:59:08Z" closed_at="2011-05-30T10:59:18Z" open="false" min_lon="37.7745676" min_lat="48.0524132" max_lon="37.8384532" max_lat="48.0696423">
+    <tag k="comment" v="Отрисовал дороги по снимкам Bing"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8290373" user="teologop" uid="435534" created_at="2011-05-30T09:54:03Z" closed_at="2011-05-30T11:10:21Z" open="false" min_lon="1.4727326" min_lat="42.6796974" max_lon="78.8096053" max_lat="51.4836497">
+    <tag k="comment" v="додав вулиці в м.Радивилів"/>
+    <tag k="created_by" v="JOSM/1.5 (4064 uk)"/>
+  </changeset>
+  <changeset id="8289014" user="Sanja Byelkin" uid="31778" created_at="2011-05-30T06:38:19Z" closed_at="2011-05-30T08:12:30Z" open="false" min_lon="37.8387227" min_lat="47.8534323" max_lon="39.2012547" max_lat="49.267862">
+    <tag k="comment" v="Mius &amp; around"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8286409" user="slavko" uid="382900" created_at="2011-05-29T21:40:31Z" closed_at="2011-05-29T21:40:55Z" open="false" min_lon="37.790855" min_lat="48.0185691" max_lon="37.8008809" max_lat="48.0283793">
+    <tag k="comment" v="донуги - травма"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8285947" user="knockpenny" uid="371711" created_at="2011-05-29T20:48:39Z" closed_at="2011-05-29T21:48:53Z" open="false" min_lon="36.6917301" min_lat="48.0269408" max_lon="37.8393973" max_lat="48.3962465">
+    <tag k="comment" v="Отрисовал дороги в Песках"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8284765" user="knockpenny" uid="371711" created_at="2011-05-29T18:59:15Z" closed_at="2011-05-29T20:20:26Z" open="false" min_lon="37.7737242" min_lat="48.0299003" max_lon="37.8400098" max_lat="48.0825206">
+    <tag k="comment" v="Отрисовал дороги по снимкам Bing"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8284178" user="xybot" uid="70696" created_at="2011-05-29T18:10:33Z" closed_at="2011-05-29T18:49:59Z" open="false" min_lon="-140.968472" min_lat="-37.7214144" max_lon="177.2269432" max_lat="63.2586247">
+    <tag k="comment" v="removing multiple consecutive identical nodes in ways/delete one node ways. please help by giving hints, about how this potlatch bug can be reproduced http://trac.openstreetmap.org/ticket/2501"/>
+    <tag k="created_by" v="FixDoubleNodes"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8284082" user="xybot" uid="70696" created_at="2011-05-29T18:04:08Z" closed_at="2011-05-29T18:10:06Z" open="false" min_lon="13.1441429" min_lat="-37.9989582" max_lon="145.2765302" max_lat="50.8787382">
+    <tag k="comment" v="Fixing typo errors in keys of the Karlsruhe Schema http://wiki.openstreetmap.org/wiki/Key:addr"/>
+    <tag k="created_by" v="FixKarlsruheSchema"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8284019" user="Sanja Byelkin" uid="31778" created_at="2011-05-29T17:59:38Z" closed_at="2011-05-29T20:08:51Z" open="false" min_lon="37.7151477" min_lat="47.7490466" max_lon="39.0147864" max_lat="48.5375413">
+    <tag k="comment" v="results of trip to Donetsk"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8283749" user="knockpenny" uid="371711" created_at="2011-05-29T17:39:36Z" closed_at="2011-05-29T18:39:45Z" open="false" min_lon="37.815253" min_lat="48.0254888" max_lon="37.864098" max_lat="48.0461736">
+    <tag k="comment" v="Отрисовал дороги по снимкам Bing"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8283665" user="xybot" uid="70696" created_at="2011-05-29T17:33:26Z" closed_at="2011-05-29T17:47:19Z" open="false" min_lon="-115.4418764" min_lat="-45.2453711" max_lon="164.5635769" max_lat="80.4774913">
+    <tag k="comment" v="Fixing typo errors in keys and key/value pairs"/>
+    <tag k="created_by" v="FixTypo7"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8278454" user="Franc" uid="7617" created_at="2011-05-29T08:31:36Z" closed_at="2011-05-29T08:33:37Z" open="false" min_lon="10.8794981" min_lat="-34.053233" max_lon="151.2791693" max_lat="48.9832444">
+    <tag k="comment" v="fix exrapolation miss spelling"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 en)"/>
+  </changeset>
+  <changeset id="8278450" user="Lisner" uid="448210" created_at="2011-05-29T08:30:46Z" closed_at="2011-05-29T09:37:24Z" open="false" min_lon="38.076064" min_lat="47.7463658" max_lon="38.2882879" max_lat="47.9029373">
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8278435" user="Lisner" uid="448210" created_at="2011-05-29T08:28:21Z" closed_at="2011-05-29T09:28:22Z" open="false" min_lon="38.1477501" min_lat="47.8688597" max_lon="38.3044547" max_lat="47.9135919">
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8274970" user="knockpenny" uid="371711" created_at="2011-05-28T19:35:33Z" closed_at="2011-05-28T20:35:52Z" open="false" min_lon="37.8005483" min_lat="48.1118563" max_lon="37.9015112" max_lat="48.167342">
+    <tag k="comment" v="Отрисовал дороги в Ясиноватой"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8274594" user="xybot" uid="70696" created_at="2011-05-28T18:50:51Z" closed_at="2011-05-28T19:54:50Z" open="false" min_lon="-138.8424041" min_lat="-43.2430009" max_lon="143.2023394" max_lat="74.0183939">
+    <tag k="comment" v="removing multiple consecutive identical nodes in ways/delete one node ways. please help by giving hints, about how this potlatch bug can be reproduced http://trac.openstreetmap.org/ticket/2501"/>
+    <tag k="created_by" v="FixDoubleNodes"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8274352" user="JIexan" uid="425568" created_at="2011-05-28T18:21:47Z" closed_at="2011-05-28T19:22:05Z" open="false" min_lon="37.824191" min_lat="48.0973433" max_lon="37.9095807" max_lat="48.1493621">
+    <tag k="comment" v="сделал 100е кварталы"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8273973" user="xybot" uid="70696" created_at="2011-05-28T17:34:28Z" closed_at="2011-05-28T18:00:08Z" open="false" min_lon="-150.4770209" min_lat="-37.2853399" max_lon="180.0" max_lat="69.3762694">
+    <tag k="comment" v="Fixing typo errors in keys and key/value pairs"/>
+    <tag k="created_by" v="FixTypo7"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8271855" user="JIexan" uid="425568" created_at="2011-05-28T13:34:42Z" closed_at="2011-05-28T14:34:47Z" open="false" min_lon="37.8657973" min_lat="48.1311839" max_lon="37.881345" max_lat="48.143957">
+    <tag k="comment" v="Подправил ставки."/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8271688" user="Manchito" uid="202868" created_at="2011-05-28T13:15:41Z" closed_at="2011-05-28T14:16:27Z" open="false" min_lon="-180.0" min_lat="-90.0" max_lon="180.0" max_lat="88.9368449">
+    <tag k="comment" v="name:es"/>
+    <tag k="created_by" v="JOSM/1.5 (4091 es)"/>
+  </changeset>
+  <changeset id="8271097" user="slavko" uid="382900" created_at="2011-05-28T12:08:22Z" closed_at="2011-05-28T12:08:34Z" open="false" min_lon="37.7803935" min_lat="48.0258684" max_lon="37.7968551" max_lat="48.0407679">
+    <tag k="comment" v="промышленность, дома"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8270939" user="slavko" uid="382900" created_at="2011-05-28T11:49:52Z" closed_at="2011-05-28T11:50:37Z" open="false" min_lon="37.7753671" min_lat="48.0240583" max_lon="37.7952579" max_lat="48.0374871">
+    <tag k="comment" v="северный - донуги"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8270625" user="knockpenny" uid="371711" created_at="2011-05-28T11:15:40Z" closed_at="2011-05-28T12:15:49Z" open="false" min_lon="37.7159686" min_lat="47.999707" max_lon="37.7414158" max_lat="48.0288579">
+    <tag k="comment" v="Отрисовал дороги по снимкам Bing"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8270568" user="knockpenny" uid="371711" created_at="2011-05-28T11:09:37Z" closed_at="2011-05-28T12:09:51Z" open="false" min_lon="37.6602719" min_lat="48.0782717" max_lon="37.9013804" max_lat="48.501411">
+    <tag k="comment" v="Отрисовал дороги в Ясиноватой по снимкам Bing"/>
+    <tag k="build" v="2.1-21-g5f128f5"/>
+    <tag k="created_by" v="Potlatch 2"/>
+    <tag k="version" v="2.1"/>
+  </changeset>
+  <changeset id="8265535" user="slavko" uid="382900" created_at="2011-05-27T18:44:37Z" closed_at="2011-05-27T18:45:05Z" open="false" min_lon="37.7990026" min_lat="48.0077276" max_lon="37.8088095" max_lat="48.0119478">
+    <tag k="comment" v="собор, администрация"/>
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8265294" user="slavko" uid="382900" created_at="2011-05-27T18:15:00Z" closed_at="2011-05-27T18:15:08Z" open="false" min_lon="37.7998894" min_lat="48.0113944" max_lon="37.8097099" max_lat="48.0174257">
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+  <changeset id="8265270" user="xybot" uid="70696" created_at="2011-05-27T18:12:51Z" closed_at="2011-05-27T18:50:34Z" open="false" min_lon="-130.1258142" min_lat="-57.1601869" max_lon="159.757283" max_lat="67.7591112">
+    <tag k="comment" v="removing multiple consecutive identical nodes in ways/delete one node ways. please help by giving hints, about how this potlatch bug can be reproduced http://trac.openstreetmap.org/ticket/2501"/>
+    <tag k="created_by" v="FixDoubleNodes"/>
+    <tag k="bot" v="yes"/>
+  </changeset>
+  <changeset id="8265216" user="slavko" uid="382900" created_at="2011-05-27T18:06:54Z" closed_at="2011-05-27T18:07:00Z" open="false" min_lon="37.8008748" min_lat="48.0128941" max_lon="37.8070318" max_lat="48.0186853">
+    <tag k="created_by" v="JOSM/1.5 (4021 ru)"/>
+  </changeset>
+</osm>
