@@ -46,5 +46,14 @@ class TestSequenceFunctions(unittest.TestCase):
         new = 'Tiger Woods Voicemail Slow Jam Remix Tiger Woods Voicemail Slow Jam Remix Tiger Woods ... http://toptuby.appspot.com/?v=OEkomaBTppY'
         self.assertEqual(trim_to_tweet(old), new)
 
+    def testTrimUnicode(self):
+        old = u"""Исправил границы военкомата и landuse=residental чтобы они не пересекались. 
+        TODO: надо организовать их через отношения, чтобы была граничная линия, и чтобы не будлировалась информация. 
+        http://www.openstreetmap.org/browse/changeset/15210559
+        """
+        new = trim_to_tweet(old)
+        print new
+        self.assertTrue(len(new) <= 140)
+
 if __name__ == '__main__':
     unittest.main()
