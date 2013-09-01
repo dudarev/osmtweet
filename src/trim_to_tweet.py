@@ -2,7 +2,7 @@
 import unittest
 
 MAX_URL_LENGTH = 50
-MAX_TWEET_LENGTH = 140
+MAX_TWEET_LENGTH = 130
 
 def remove_word(s):
     words = s.strip().split(' ')
@@ -67,6 +67,13 @@ class TestSequenceFunctions(unittest.TestCase):
         old = 20 * "http://example.com/A_SHORT_URL "
         new = trim_to_tweet(old)
         print new
+        self.assertTrue(len(new) <= MAX_TWEET_LENGTH)
+
+    def testProblemTweet(self):
+        old = u"Batovich: нью-йорк пицца закрылась, Львовская шоколадная переехали. Уточнил котельную, подстанцию поставил и банки ... http://bit.ly/11rLeUA"
+        new = trim_to_tweet(old)
+        print new
+        print len(old)
         self.assertTrue(len(new) <= MAX_TWEET_LENGTH)
 
 
